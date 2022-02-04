@@ -43,6 +43,10 @@ h2 {
   margin: 5% 3% 5% 0;
 }
 
+.download-button-bottom {
+  margin: 5% 3% 0 3%;
+}
+
 .iphone-div {
   position: relative;
 }
@@ -53,6 +57,18 @@ h2 {
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
+}
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    transform: rotate(0deg);
+    position: static;
+    right: 0;
+  }
 }
 
 /* Feature Section */
@@ -131,4 +147,41 @@ h2 {
 
 .container-fluid {
   padding: 3% 15% 10% 15%;
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 5% 15%;
+  font-weight: 900;
+}
+
+.cta-header {
+  padding: 0 10%;
+}
+
+/* Footer Section */
+.footer {
+  padding: 4% 15% 1% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-row {
+  padding-bottom: 20px;
+}
+
+.social-link,
+.social-link:link,
+.social-link:visited,
+.social-link:hover,
+.social-link:active {
+  color: black;
+  padding: 2% 10px;
+}
+
+.social-link:hover {
+  color: gray;
 }
