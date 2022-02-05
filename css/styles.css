@@ -1,16 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
+  text-align: center;
 }
 
 h2 {
@@ -20,7 +10,23 @@ h2 {
   line-height: 1.5;
 }
 
-  /* Navigation Bar */
+.container-fluid {
+  padding: 3% 15% 10% 15%;
+}
+
+/* Sections */
+
+.color {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white {
+  background-color: white;
+}
+
+/* Navigation Bar */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -38,7 +44,18 @@ h2 {
   margin: 0 18px;
 }
 
-/* Download Buttons */
+/* Title Section */
+
+.title {
+  text-align: left;
+}
+
+.title-header {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -51,7 +68,6 @@ h2 {
   position: relative;
 }
 
-/* Image Adjustments */
 .iphone-mockup {
   width: 60%;
   transform: rotate(25deg);
@@ -60,7 +76,7 @@ h2 {
 }
 
 @media (max-width:991px) {
-  #title {
+  .title {
     text-align: center;
   }
 
@@ -72,11 +88,10 @@ h2 {
 }
 
 /* Feature Section */
-#features {
+
+.features {
   padding: 7% 15%;
-  background-color: white;
   position: relative;
-  text-align: center;
 }
 
 .feature-icon {
@@ -98,13 +113,7 @@ h2 {
   padding: 0 20%;
 }
 
-
 /* Testimonials Section */
-#testimonials {
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 .testimonial-image {
   width: 10%;
@@ -116,9 +125,7 @@ h2 {
   padding: 7% 15%;
 }
 
-#press {
-  background-color: #ff4c68;
-  text-align: center;
+.press {
   padding-bottom: 3%;
 }
 
@@ -128,8 +135,8 @@ h2 {
 }
 
 /* Pricing Section */
-#pricing {
-  text-align: center;
+
+.pricing {
   padding: 5% 15%;
 }
 
@@ -145,15 +152,9 @@ h2 {
   height: 100%;
 }
 
-.container-fluid {
-  padding: 3% 15% 10% 15%;
-}
-
 /* Call to Action Section */
+
 .cta {
-  background-color: #ff4c68;
-  color: white;
-  text-align: center;
   padding: 5% 15%;
   font-weight: 900;
 }
@@ -165,8 +166,6 @@ h2 {
 /* Footer Section */
 .footer {
   padding: 4% 15% 1% 15%;
-  background-color: #fff;
-  text-align: center;
 }
 
 .social-row {
